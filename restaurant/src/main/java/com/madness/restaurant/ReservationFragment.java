@@ -85,109 +85,95 @@ public class ReservationFragment extends Fragment {
         time.add("20:30");
 
         names.add("Mario Rossi");
-        identifiers.add(String.valueOf(1));
+        identifiers.add(String.valueOf(6));
         seats.add(String.valueOf(4));
         dates.add("8/04/2019");
         time.add("20:00");
 
         names.add("Luca Verdi");
-        identifiers.add(String.valueOf(2));
+        identifiers.add(String.valueOf(7));
         seats.add(String.valueOf(2));
         dates.add("8/04/2019");
         time.add("21:00");
 
         names.add("Giuseppe Neri");
-        identifiers.add(String.valueOf(3));
+        identifiers.add(String.valueOf(8));
         seats.add(String.valueOf(6));
         dates.add("8/04/2019");
         time.add("20:00");
 
         names.add("Raffaella Rossi");
-        identifiers.add(String.valueOf(4));
+        identifiers.add(String.valueOf(9));
         seats.add(String.valueOf(1));
         dates.add("8/04/2019");
         time.add("19:00");
 
         names.add("Bruno Verdi");
-        identifiers.add(String.valueOf(5));
+        identifiers.add(String.valueOf(10));
         seats.add(String.valueOf(2));
         dates.add("8/04/2019");
         time.add("20:30");
 
         names.add("Mario Rossi");
-        identifiers.add(String.valueOf(1));
+        identifiers.add(String.valueOf(11));
         seats.add(String.valueOf(4));
         dates.add("8/04/2019");
         time.add("20:00");
 
         names.add("Luca Verdi");
-        identifiers.add(String.valueOf(2));
+        identifiers.add(String.valueOf(12));
         seats.add(String.valueOf(2));
         dates.add("8/04/2019");
         time.add("21:00");
 
         names.add("Giuseppe Neri");
-        identifiers.add(String.valueOf(3));
+        identifiers.add(String.valueOf(13));
         seats.add(String.valueOf(6));
         dates.add("8/04/2019");
         time.add("20:00");
 
         names.add("Raffaella Rossi");
-        identifiers.add(String.valueOf(4));
+        identifiers.add(String.valueOf(14));
         seats.add(String.valueOf(1));
         dates.add("8/04/2019");
         time.add("19:00");
 
         names.add("Bruno Verdi");
-        identifiers.add(String.valueOf(5));
+        identifiers.add(String.valueOf(15));
         seats.add(String.valueOf(2));
         dates.add("8/04/2019");
         time.add("20:30");
 
         names.add("Mario Rossi");
-        identifiers.add(String.valueOf(1));
+        identifiers.add(String.valueOf(16));
         seats.add(String.valueOf(4));
         dates.add("8/04/2019");
         time.add("20:00");
 
         names.add("Luca Verdi");
-        identifiers.add(String.valueOf(2));
+        identifiers.add(String.valueOf(17));
         seats.add(String.valueOf(2));
         dates.add("8/04/2019");
         time.add("21:00");
 
         names.add("Giuseppe Neri");
-        identifiers.add(String.valueOf(3));
+        identifiers.add(String.valueOf(18));
         seats.add(String.valueOf(6));
         dates.add("8/04/2019");
         time.add("20:00");
 
         names.add("Raffaella Rossi");
-        identifiers.add(String.valueOf(4));
+        identifiers.add(String.valueOf(19));
         seats.add(String.valueOf(1));
         dates.add("8/04/2019");
         time.add("19:00");
 
         names.add("Bruno Verdi");
-        identifiers.add(String.valueOf(5));
+        identifiers.add(String.valueOf(20));
         seats.add(String.valueOf(2));
         dates.add("8/04/2019");
         time.add("20:30");
 
     }
-
-   /* private void initRecycledView(){
-        RecyclerView recyclerView;
-        try{
-            recyclerView = getView().findViewById(R.id.recyclerView);
-            RecyclerViewAdapter adapter = new RecyclerViewAdapter(getContext(),names,identifiers,seats,dates,time);
-            recyclerView.setAdapter(adapter);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-
-    }*/
 
 }
