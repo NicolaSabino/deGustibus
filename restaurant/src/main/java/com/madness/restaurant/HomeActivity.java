@@ -93,10 +93,10 @@ public class HomeActivity extends AppCompatActivity
                 fragmentClass = ReservationFragment.class;
                 break;
             case R.id.nav_home:
-                fragmentClass = DailyFragment.class;
+                fragmentClass = HomeFragment.class;
                 break;
             default:
-                fragmentClass = HomeFragment.class;
+                fragmentClass = DailyFragment.class;
         }
 
         try {
